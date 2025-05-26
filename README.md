@@ -9,7 +9,7 @@ Built to empower small traders with a lightweight, mobile-first solution to trac
 Many small traders **do not track income or expenses**, making it hard to determine profitability or manage their businesses effectively. They need a simple, low-barrier tool that fits their workflow — ideally mobile, fast, and intuitive.
 
 ###  Challenge
-> Build a mobile/web app that uses **voice** or **photo input** to help business owners track income and expenses in real-time.
+Build a mobile/web app that uses **voice** or **photo input** to help business owners track income and expenses in real-time.
 
 
 ##  Prompt (Generated with Claude AI)
@@ -28,16 +28,15 @@ A **React-based Progressive Web App** for small business owners to:
 - JWT-based sessions, password resets, and secure logout
 - User-based data isolation
 
-### Main Screens
+### Main Screen
 - **Dashboard:** View profit/loss indicators (green/red), recent transactions, quick actions
 - **Voice Input:** Use Web Speech API to add transactions like _“Made 50 dollars”_
 - **Photo Capture:** Take receipt pictures and use **OCR (Tesseract.js)** to extract amount, date, vendor
 - **Manual Entry:** Add income/expenses with a keypad and date picker
 - **Reports:** View daily, weekly, and monthly summaries with basic charts and CSV export
 
----
 
-## ⚙️ Technical Stack
+##  Stack
 
 | Layer        | Technology                        |
 |--------------|------------------------------------|
@@ -46,7 +45,6 @@ A **React-based Progressive Web App** for small business owners to:
 | **Database** | MongoDB or PostgreSQL              |
 | **Libraries**| Web Speech API, Tesseract.js, Chart.js, JWT, bcrypt |
 
----
 
 ## Data Models
 
@@ -74,8 +72,9 @@ A **React-based Progressive Web App** for small business owners to:
   notes,
   
 }
+```
 
-### 🎙️ Voice Entry
+###  Voice Entry
 1. Tap microphone button
 2. Convert speech to text (e.g. "Made 50 dollars")
 3. Parse and confirm transaction
@@ -110,9 +109,8 @@ A **React-based Progressive Web App** for small business owners to:
 
 ---
 
-## 📁 File Structure
+## File Structure
 
-```
 /components
   ├─ Auth/
   ├─ Dashboard.js
@@ -126,7 +124,7 @@ A **React-based Progressive Web App** for small business owners to:
   ├─ speechService.js
   ├─ ocrService.js
   └─ apiService.js
-```
+
 Build functional MVP focusing on core expense tracking with authentication.
 
 
@@ -134,7 +132,7 @@ Build functional MVP focusing on core expense tracking with authentication.
 
 After exploring various AI coding assistants, including Claude AI for ideation and prompt generation, I eventually settled on **[bolt.new](https://bolt.new)** for prototyping and building the final version. It took **two days of iteration**, debugging, and refinement to achieve the desired functionality and output.
 
----
+
 
 ##  Getting Started
 
@@ -155,19 +153,16 @@ npm start
 ###  Build & Deploy
 ```bash
 npm run build
-```
 
----
 
-##  Screenshots
+
+## Screenshots
 
 ![Dashboard Screenshot](assets/images/dashboard.png)
 ![Voice Input Screenshot](assets/images/speech.png)
 ![Signup Screenshot](assets/images/signup.png)
 ![Account Info Screenshot](assets/images/account_info.png)
 
-
----
 
 
 
