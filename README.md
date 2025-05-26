@@ -158,10 +158,10 @@ npm run build
 
 ## Screenshots
 
-![Dashboard Screenshot](assets/images/dashboard.png)
-![Voice Input Screenshot](assets/images/speech.png)
+![Dashboard Screenshot](assets/images/dashboard1.png)
+![Voice Input Screenshot](assets/images/speech1.png)
 ![Signup Screenshot](assets/images/signup.png)
-![Account Info Screenshot](assets/images/account_info.png)
+![Account Info Screenshot](assets/images/account_info1.png)
 
 
 
